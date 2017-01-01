@@ -5,7 +5,7 @@
 
 ---------------------
 ### Abstract
->A sensor fusion controller based on Spiking Neural Networks suitable to run on a neuromorphic computer. The proposed framework uses the paradigm of reservoir computing to control the collaborative robot BAXTER. The system was designed to work in parallel with an already working Liquid State Machine(LSM) that performs trajectories in 2D closed shapes. In order to keep a felt pen touching the drawing surface, information of force and range are fed to our controller. The controller was trained using data from a Proportional Integral Derivative controller (PID), merging force and range sensors’ information. Our results show that the LSM can copy the behavior of the PID controller on different situations.
+>A sensor fusion controller based on Spiking Neural Networks suitable to run on a neuromorphic computer. The proposed framework uses the paradigm of reservoir computing to control the collaborative robot BAXTER. The system was designed to work in parallel with an already working Liquid State Machine(LSM) that performs trajectories in 2D closed shapes. In order to keep a felt pen touching the drawing surface, information of force and range are fed to our controller. The controller was trained using data from a Proportional Integral Derivative controller (PID), merging force and range sensorsâ€™ information. Our results show that the LSM can copy the behavior of the PID controller on different situations.
 
 
 ---------------------------
@@ -31,7 +31,7 @@
 
 #### OBS:
 * BEE SNN simulator:
-    * https://github.com/ricardodeazambuja/LiquidStateMachine-Python
+    * https://github.com/ricardodeazambuja/BEE
 
 * V-REP simulator:
     * http://www.coppeliarobotics.com/downloads.html
