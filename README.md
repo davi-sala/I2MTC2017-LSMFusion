@@ -35,3 +35,9 @@
 
 * V-REP simulator:
     * http://www.coppeliarobotics.com/downloads.html
+    
+
+* Related works:  
+    * https://github.com/ricardodeazambuja/ICONIP2016  
+    * https://github.com/ricardodeazambuja/IJCNN2017  
+    * https://github.com/ricardodeazambuja/IJCNN2017-2  
