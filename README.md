@@ -1,4 +1,4 @@
-# Experiments used for the paper submitted to I2MTC 2017
+# Experiments used for the paper ~~submitted to~~ presented at [I2MTC 2017](http://2017.imtc.ieee-ims.org/)
 
 ---------------------
 ## Sensor Fusion Approach Using Liquid StateMachines for Positioning Control
@@ -36,8 +36,11 @@
 * V-REP simulator:
     * http://www.coppeliarobotics.com/downloads.html
     
+* Final IEEE Xplore version:
+    * http://ieeexplore.ieee.org/document/7969728/
 
 * Related works:  
-    * https://github.com/ricardodeazambuja/ICONIP2016  
-    * https://github.com/ricardodeazambuja/IJCNN2017  
-    * https://github.com/ricardodeazambuja/IJCNN2017-2  
+    * [Graceful Degradation under Noise on Brain Inspired Robot Controllers](https://github.com/ricardodeazambuja/ICONIP2016)
+    * [Diverse, Noisy and Parallel: a New Spiking Neural Network Approach for Humanoid Robot Control](https://github.com/ricardodeazambuja/IJCNN2016)
+    * [Short-Term Plasticity in a Liquid State Machine Biomimetic Robot Arm Controller](https://github.com/ricardodeazambuja/IJCNN2017)
+    * [Neurorobotic Simulations on the Degradation of Multiple Column Liquid State Machines](https://github.com/ricardodeazambuja/IJCNN2017-2)    
