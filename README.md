@@ -1,11 +1,11 @@
-# Experiments used for the paper submitted to I2MTC 2017
+# Experiments used for the paper ~~submitted to~~ presented at [I2MTC 2017](http://2017.imtc.ieee-ims.org/)
 
 ---------------------
-## Sensor Fusion Approach Using Liquid StateMachines for Positioning Control
+## Positioning control on a collaborative robot by sensor fusion with liquid state machines
 
 ---------------------
 ### Abstract
->A sensor fusion controller based on Spiking Neural Networks suitable to run on a neuromorphic computer. The proposed framework uses the paradigm of reservoir computing to control the collaborative robot BAXTER. The system was designed to work in parallel with an already working Liquid State Machine(LSM) that performs trajectories in 2D closed shapes. In order to keep a felt pen touching the drawing surface, information of force and range are fed to our controller. The controller was trained using data from a Proportional Integral Derivative controller (PID), merging force and range sensors’ information. Our results show that the LSM can copy the behavior of the PID controller on different situations.
+A positioning controller based on Spiking Neural Networks for sensor fusion suitable to run on a neuromorphic computer is presented in this work. The proposed framework uses the paradigm of reservoir computing to control the collaborative robot BAXTER. The system was designed to work in parallel with Liquid State Machines that performs trajectories in 2D closed shapes. In order to keep a felt pen touching a drawing surface, data from sensors of force and distance are fed to the controller. The system was trained using data from a Proportional Integral Derivative controller, merging the data from both sensors. The results show that the LSM can learn the behavior of a PID controller on different situations.
 
 
 ---------------------------
@@ -36,8 +36,11 @@
 * V-REP simulator:
     * http://www.coppeliarobotics.com/downloads.html
     
+* Final IEEE Xplore version:
+    * http://ieeexplore.ieee.org/document/7969728/
 
 * Related works:  
-    * https://github.com/ricardodeazambuja/ICONIP2016  
-    * https://github.com/ricardodeazambuja/IJCNN2017  
-    * https://github.com/ricardodeazambuja/IJCNN2017-2  
+    * [Graceful Degradation under Noise on Brain Inspired Robot Controllers](https://github.com/ricardodeazambuja/ICONIP2016)
+    * [Diverse, Noisy and Parallel: a New Spiking Neural Network Approach for Humanoid Robot Control](https://github.com/ricardodeazambuja/IJCNN2016)
+    * [Short-Term Plasticity in a Liquid State Machine Biomimetic Robot Arm Controller](https://github.com/ricardodeazambuja/IJCNN2017)
+    * [Neurorobotic Simulations on the Degradation of Multiple Column Liquid State Machines](https://github.com/ricardodeazambuja/IJCNN2017-2)    
